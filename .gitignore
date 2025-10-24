@@ -1,0 +1,62 @@
+# ==== PlatformIO / VSCode ====
+.pio/
+.vscode/
+.clangd/
+.ccls-cache/
+.idea/
+# IntelliSense caches
+ipch/
+
+# ==== Build artifacts ====
+*.elf
+*.bin
+*.map
+*.lst
+*.hex
+*.srec
+
+# ==== Certificates / Keys / Secrets ====
+*.key
+*.pem
+*.der
+*.p12
+*.crt
+*.csr
+*.cer
+*.jks
+*.keystore
+*.pfx
+*.bks
+*.env
+*.secret
+*.secrets
+*.password
+*.passwd
+**/private/
+**/secrets/
+**/certs/private/
+**/keys/private/
+**/signing/private/
+**/signing/private.key
+**/private.key
+**/server.key
+**/device.key
+
+# Optional: ignore any generated signature files except when explicitly tracked
+*.sig
+*.sign
+
+# ==== OS cruft ====
+.DS_Store
+Thumbs.db
+
+# ==== Logs / temp ====
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ==== Node / Python (if used for tooling) ====
+node_modules/
+venv/
+.env/
